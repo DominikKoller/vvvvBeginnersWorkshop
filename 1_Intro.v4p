@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.2.dtd" >
-   <PATCH nodename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\First.v4p" systemname="First" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\First.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="0" top="2568" width="5520" height="4680">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
+   <PATCH nodename="D:\GIT\vvvvBeginnersWorkshop\1_Intro.v4p" systemname="First" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\First.v4p" scrollx="0" scrolly="-360">
+   <BOUNDS type="Window" left="16965" top="5925" width="5520" height="4680">
    </BOUNDS>
    <PACK Name="addonpack" Version="35.0.0">
    </PACK>
@@ -19,7 +19,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="516" top="1452" width="936" height="432">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="2.6">
+   <PIN pinname="Y Input Value" slicecount="1" values="2.85">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
@@ -51,7 +51,7 @@
    <NODE nodename="IOBox (String)" componentmode="InABox" id="9">
    <BOUNDS type="Node" left="516" top="1140" width="2832" height="240">
    </BOUNDS>
-   <BOUNDS type="Box" left="516" top="1140" width="2832" height="240">
+   <BOUNDS type="Box" left="516" top="1140" width="3360" height="315">
    </BOUNDS>
    <PIN pinname="Input String" visible="0" slicecount="1" values="|v Drag up/down with right mouse button!|">
    </PIN>
