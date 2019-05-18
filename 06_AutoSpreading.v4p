@@ -1,6 +1,6 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.2.dtd" >
-   <PATCH nodename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\06_AutoSpreading.v4p" systemname="06_AutoSpreading" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\06_AutoSpreading.v4p" scrollx="48" scrolly="0">
-   <BOUNDS type="Window" left="3312" top="3756" width="7332" height="6876">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
+   <PATCH nodename="D:\git\vvvvBeginnersWorkshop\06_AutoSpreading.v4p" systemname="06_AutoSpreading" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\06_AutoSpreading.v4p" scrollx="48" scrolly="0">
+   <BOUNDS type="Window" left="1392" top="762" width="7332" height="6876">
    </BOUNDS>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="1" systemname="IOBox (String)">
    <BOUNDS type="Node" left="396" top="324" width="432" height="240">
@@ -18,16 +18,18 @@
    <PIN pinname="Size" slicecount="1" values="16">
    </PIN>
    </NODE>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="38.1.0">
    </PACK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="2">
+   <NODE systemname="RENDERER (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="2">
    <BOUNDS type="Node" left="1692" top="5304" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="1692" top="5304" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="19536" top="9816" width="5160" height="4668">
+   <BOUNDS type="Window" left="8700" top="792" width="5160" height="4668">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="Auto Aspect Ratio" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="Segment (DX9)" filename="" nodename="Segment (DX9)" componentmode="Hidden" id="3">
@@ -85,6 +87,8 @@
    </PIN>
    <PIN pinname="Spread Count" visible="1">
    </PIN>
+   <PIN pinname="Width" slicecount="1" values="1.8">
+   </PIN>
    </NODE>
    <NODE systemname="Cross (2d)" nodename="Cross (2d)" componentmode="Hidden" id="18">
    <BOUNDS type="Node" left="1860" top="2808" width="100" height="100">
@@ -104,6 +108,8 @@
    <PIN pinname="Output" visible="1">
    </PIN>
    <PIN pinname="Spread Count" visible="1">
+   </PIN>
+   <PIN pinname="Width" slicecount="1" values="1.8">
    </PIN>
    </NODE>
    <LINK srcnodeid="17" srcpinname="Output" dstnodeid="18" dstpinname="X In">

@@ -1,15 +1,17 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.2.dtd" >
-   <PATCH nodename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\4_Animating.v4p" scrollx="0" scrolly="-360" systemname="4_Animating" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\4_Animating.v4p">
-   <BOUNDS type="Window" left="5532" top="5016" width="4488" height="6792">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
+   <PATCH nodename="D:\git\vvvvBeginnersWorkshop\4_Animating.v4p" scrollx="0" scrolly="-360" systemname="4_Animating" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\4_Animating.v4p">
+   <BOUNDS type="Window" left="2694" top="1098" width="4488" height="6792">
    </BOUNDS>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
+   <NODE systemname="RENDERER (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="492" top="5472" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="492" top="5472" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="19476" top="5280" width="5196" height="4476">
+   <BOUNDS type="Window" left="7104" top="1092" width="5196" height="4476">
    </BOUNDS>
    <PIN pinname="Layers" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Auto Aspect Ratio" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="1" systemname="IOBox (String)">
@@ -114,7 +116,7 @@
    </LINK>
    <LINK srcnodeid="10" srcpinname="Output" dstnodeid="8" dstpinname="X">
    </LINK>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="38.1.0">
    </PACK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="14">
    <BOUNDS type="Box" left="1212" top="2256" width="792" height="240">

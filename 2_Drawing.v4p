@@ -1,17 +1,19 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="D:\GIT\vvvvBeginnersWorkshop\2_Drawing.v4p" systemname="Second" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\Second.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="5430" top="2565" width="10830" height="6000">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
+   <PATCH nodename="D:\git\vvvvBeginnersWorkshop\2_Drawing.v4p" systemname="Second" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\Second.v4p" scrollx="0" scrolly="-360">
+   <BOUNDS type="Window" left="1176" top="708" width="7536" height="6000">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="38.1.0">
    </PACK>
-   <NODE systemname="Renderer (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
+   <NODE systemname="RENDERER (EX9)" nodename="Renderer (EX9)" componentmode="InAWindow" id="0">
    <BOUNDS type="Node" left="792" top="4704" width="100" height="100">
    </BOUNDS>
    <BOUNDS type="Box" left="792" top="4704" width="2400" height="1800">
    </BOUNDS>
-   <BOUNDS type="Window" left="19452" top="192" width="5184" height="5064">
+   <BOUNDS type="Window" left="8676" top="774" width="5184" height="5064">
    </BOUNDS>
    <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="Auto Aspect Ratio" slicecount="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="Quad (DX9)" nodename="Quad (DX9)" componentmode="Hidden" id="1">
@@ -103,7 +105,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1224" top="1188" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="-0.64">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.55">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -117,7 +119,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="1440" top="1572" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.52">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0.76">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>

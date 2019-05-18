@@ -1,8 +1,8 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta35.8.dtd" >
-   <PATCH nodename="D:\GIT\vvvvBeginnersWorkshop\1_Intro.v4p" systemname="First" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\First.v4p" scrollx="0" scrolly="-360">
-   <BOUNDS type="Window" left="16965" top="5925" width="5520" height="4680">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50beta38.1.dtd" >
+   <PATCH nodename="D:\git\vvvvBeginnersWorkshop\1_Intro.v4p" systemname="First" filename="C:\Users\dom\Desktop\vvvvWorkshop\WIP\First.v4p" scrollx="0" scrolly="-360">
+   <BOUNDS type="Window" left="6228" top="1926" width="5520" height="4680">
    </BOUNDS>
-   <PACK Name="addonpack" Version="35.0.0">
+   <PACK Name="addonpack" Version="38.1.0">
    </PACK>
    <NODE systemname="Subtract (Value)" nodename="Subtract (Value)" componentmode="Hidden" id="1">
    <BOUNDS type="Node" left="516" top="2172" width="312" height="276">
@@ -33,7 +33,7 @@
    </BOUNDS>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0">
+   <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
    </NODE>
    <LINK srcnodeid="7" srcpinname="Y Output Value" dstnodeid="1" dstpinname="Input 2">
